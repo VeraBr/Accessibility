@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300&family=Readex+Pro:wght@300&family=Roboto:wght@300&display=swap'); 
+
+
+body {
+    background: rgb(233, 236, 236);
+}
+
+main {
+    font-family: 'Readex Pro', Tahoma, sans-serif; 
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Readex Pro', sans-serif;
+    text-decoration: underline;
+    text-shadow: 2px 2px lightgrey;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px groove lightgray;
+    border-bottom: none;
+    background: white;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    border-radius: 2px;
+    margin: 20px;
+    padding: 25px;
+}
+
+.image {
+    max-width: 70%;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info {
+    max-width: 70%;
+    margin-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    margin: 5px;
+    color: black;
+}
+
+a:hover {
+    color: rgb(3, 93, 196);
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 760px) {
+
+    .accessibility {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .articles {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .links {
+        font-family: 'Roboto', Tahoma, sans-serif;
+    }
+
+}
